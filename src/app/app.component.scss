@@ -1,0 +1,15 @@
+.header-main {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: var(--nv-green-200);
+}
+.content-main {
+  height: calc(100vh - 128px);
+  overflow-y: auto;
+  display: inherit;
+  padding: 64px 0;
+  scrollbar-gutter: stable;
+}
