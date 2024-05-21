@@ -1,0 +1,16 @@
+.content-header {
+  background-color: var(--nv-green-200);
+
+  .buttons {
+    .btn-item {
+      background-color: transparent;
+      border: 1px solid var(--nv-white-100);
+      color: var(--nv-white-100);
+      padding: 8px 12px;
+      cursor: pointer;
+      &:hover {
+        background-color: var(--nv-blue-200);
+      }
+    }
+  }
+}

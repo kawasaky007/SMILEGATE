@@ -1,0 +1,14 @@
+<div class="container">
+  <span class="nv-d-inherit nv-title-1"> Photo Cards: </span>
+
+  <div
+    class="list-cards nv-grid nv-grid-cols-5 nv-lg-grid-cols-4 nv-md-grid-cols-3 nv-xs-grid-cols-1 nv-gap-8"
+  >
+    <div *ngFor="let card of listCard" class="card-item">
+      <div class="image-container">
+        <img class="nv-object-cover" [src]="card.img" alt="" />
+      </div>
+      <p class="nv-text-ellipsis-1">{{ card.name }}</p>
+    </div>
+  </div>
+</div>
